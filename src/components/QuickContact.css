@@ -1,0 +1,81 @@
+.quick-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a2c38;
+  color: white;
+  padding: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+.quick-contact-left {
+    font-size: 1.1rem;
+  width: 50%;
+}
+.quick-contact-left p {
+  line-height: 2rem;
+}
+.quick-contact-right {
+  width: 40%;
+  background-color: #22232d;
+  width: 50%;
+  height: 230px;
+  border-radius: 22px;
+  padding: 20px;
+  margin: 20px;
+}
+.quick-heading {
+  color: #ff9021;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.quick-icon {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 2rem;
+}
+.quick-icon span {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.dots {
+    flex-grow: 1; /* Allows the span to take up remaining space */
+    border-bottom: 2.5px dotted #585855; /* Creates a dotted line */
+    margin: 0 10px; /* Adds space on either side of the dots */
+  }
+
+  .quick-contact-right p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .quick-contact-right button{
+    width: 100%;
+    height: 2.7rem;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff9021;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+
+  @media screen and (max-width: 860px) {
+    .quick-contact {
+      flex-direction: column;
+    }
+    .quick-contact-left {
+      width: 100%;
+    }
+    .quick-contact-right {
+      width: 100%;
+      height: 250px;
+    }
+    
+  }

@@ -1,0 +1,47 @@
+.section2right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.section2right span {
+  display: block; 
+  width: 95%;  
+  height: 1px; 
+  background-color: #000;  
+  margin: 20px auto;
+}
+.section2right div section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.section2right div{
+    padding: 20px;
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(255, 255, 255);
+margin: 10px 0;
+    border-bottom: 5px solid #ff9021;
+    border-radius: 20px;
+}
+.section2right h2{
+    margin-left: 30px;
+}
+.section2right p{
+    line-height: 2em;
+    font-size: 1.05rem;
+    color: grey;
+}
+.build{
+    font-size: 60px;
+    color: #ff9021;
+}
+
+@media screen and (max-width: 1034px) {
+    .section2right div{
+        margin: 10px;
+    }
+   
+    
+}

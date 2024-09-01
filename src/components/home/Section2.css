@@ -1,0 +1,17 @@
+.section2{
+    display: flex;
+}
+.section2left2{width: 70%;}
+.section2right2{width: 30%;height: 100vh;}
+
+@media screen and (max-width: 1034px) {
+    .section2left2{
+        width: 100%;
+        margin-bottom: 10px;
+    }.section2right2{
+        width: 100%;
+    }
+    .section2{
+        flex-direction: column;
+    }
+}

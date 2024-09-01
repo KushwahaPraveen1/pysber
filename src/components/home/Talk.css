@@ -1,0 +1,64 @@
+.talk {
+    background-image: url('https://alphaafin.com.au/wp-content/uploads/2024/08/img-section-03-min-1.jpg');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100%; /* Full width of the container */
+    height: 400px; /* Set the height as needed */
+    display: flex; /* Flexbox for easy centering of content inside */
+    align-items: center; /* Vertically center the content */
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .talk button{
+    width: 10rem;
+    height: 3.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 30px 0;cursor: pointer;
+  }
+
+  .talk h1{
+    font-size: 3rem;
+    color: #2a2c38;
+
+  }
+
+  .talk p{
+    font-size: 1.3rem;
+    color: #2a2c38;
+    text-align: center;
+  }
+  .donate{
+    font-size: 3.8rem;
+    color: #2a2c38;
+    margin-bottom: -25px;
+  }
+  @keyframes slideUp {
+    from {
+      transform: translateY(120px); /* Start 20px below the final position */
+      opacity: 0; /* Start with 0 opacity */
+    }
+    to {
+      transform: translateY(0); /* End at the final position */
+      opacity: 1; /* End with full opacity */
+    }
+  }
+  .talk h1{animation: slideUp 1.1s ease-out forwards;}
+
+  .talk p{animation: slideUp 1.1s ease-out forwards 0.5s;}
+  .talk button {animation: slideUp 1.1s ease-out forwards;}
+  @media screen and (max-width: 768px) {
+  
+    .talk button{
+        margin: 10px 0;
+        width: 50%;
+    }
+    .talk p{
+      font-size: 1.2rem;
+    }
+    
+  }

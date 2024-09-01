@@ -1,0 +1,30 @@
+.founder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.founder div{
+    border-bottom: 5px solid #ff9021;
+    border-radius: 20px;
+    line-height: 1rem;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.founder h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+    color: rgb(41, 41, 41);
+}
+.founder img{
+    width: 80%;
+    height: auto;
+}
+.founder section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-top: 10px;
+}
